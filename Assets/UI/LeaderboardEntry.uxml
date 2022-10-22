@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles.uss?fileID=7433441132597879392&amp;guid=4205af610e2ec4550b2569e2049da1c4&amp;type=3#Styles" />
+    <ui:VisualElement name="leaderboard-entry" style="flex-grow: 1; flex-shrink: 0; flex-direction: row; justify-content: space-around; padding-right: 4px; width: 100%; padding-left: 4px; padding-top: 4px; padding-bottom: 4px;">
+        <ui:Label text="#" display-tooltip-when-elided="true" name="entry-number" style="flex-grow: 0; -unity-text-align: middle-left; width: 10%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 8px; padding-right: 4px; padding-top: 4px; padding-bottom: 4px;" />
+        <ui:Label text="Name" display-tooltip-when-elided="true" name="entry-name" style="flex-grow: 0; -unity-text-align: middle-left; width: 40%; align-items: stretch; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 4px; padding-right: 4px; padding-top: 4px; padding-bottom: 4px;" />
+        <ui:Label text="Time" display-tooltip-when-elided="true" name="entry-time-taken" style="flex-grow: 0; -unity-text-align: middle-left; width: 25%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 4px; padding-right: 4px; padding-top: 4px; padding-bottom: 4px;" />
+        <ui:Label text="Date" display-tooltip-when-elided="true" name="entry-created" style="flex-grow: 0; -unity-text-align: middle-right; width: 25%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 4px; padding-right: 4px; padding-top: 4px; padding-bottom: 4px;" />
+    </ui:VisualElement>
+</ui:UXML>
